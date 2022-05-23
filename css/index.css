@@ -84,7 +84,7 @@ form {
   height: 500px;
   padding-left: 50px;
   text-align: left;
-  background-image: url(/images/hero-banner.jpg);
+  background-image: url(https://imanbara.github.io/Dignifeed_LP/images/hero-banner.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ form {
 
 .volunteering {
   background-color: rgba(0,0,0,0.5);
-  background-image: url(/images/volunteering.jpg);
+  background-image: url(https://imanbara.github.io/Dignifeed_LP/images/volunteering.jpg);
   padding: 50px;
   background-attachment: fixed;
   background-position: center;
