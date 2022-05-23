@@ -83,28 +83,30 @@ form {
 .jumbotron {
   height: 500px;
   padding-left: 50px;
+  vertical-align: bottom;
   text-align: left;
-  background-image: url(/images/hero-banner.jpg);
+  background-image: url(https://imanbara.github.io/Dignifeed_LP/images/hero-banner.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.aboutContent{
-  padding-top: 50px;
-  padding-bottom: 50px;
+.apps {
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutUs {
   margin-left: 50px;
+  margin-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .volunteering {
   background-color: rgba(0,0,0,0.5);
-  background-image: url(/images/volunteering.jpg);
+  background-image: url(https://imanbara.github.io/Dignifeed_LP/images/volunteering.jpg);
   padding: 50px;
   background-attachment: fixed;
   background-position: center;
