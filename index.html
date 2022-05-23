@@ -20,7 +20,7 @@
     <!-- Paste Navigation Code Below -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        <img src="../Dignifeed_LP/images/logo-single.png" width="50" height="50" alt="">
       </a>
       <a class="navbar-brand" href="#">Dignifeed</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,32 +28,92 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-item nav-link" href="#about">About Us<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#volunteering">Volunteering</a>
+          <!--<a class="nav-item nav-link" href="#">Donations</a>-->
+          <a class="nav-item nav-link" href="#locations">Locations</a>
         </div>
       </div>
     </nav>
     <!-- Paste Jumbotron Code Below-->
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="jumbotron my-auto">
+      <div class="align-items-center">
+          <h1>Food Relief,<br>Anonymously</h1>
+          <br>
+          <!-- <hr class="my-4"> -->
+          <h5>Download the app</h5>
+          <br>
+          <img src="../Dignifeed_LP/images/app-apple.png" href="#">
+          <img src="../Dignifeed_LP/images/app-google.png" href="#">
+      </div>
     </div>
     <!-- Add columns, rows, and cards Below -->
-
-    <!-- Add form group below -->
-
-    <!-- Modal -->
-
+    <div class="container-fluid">
+      <h2 id="about">About Us</h2>
+      <div class="row">
+        <div class="row">
+          <h3>It's as simple as pie. Judgement free, inclusive food relief.</h3>
+        </div>
+        <div class="row">
+          <p>
+            Forget the hassles of complex registration processes. Just download the app, choose your location and how you want to access food for the day - either as a hot meal or as pantry staples, and pick up from a food locker near you.
+            <br><br>
+            You'll find our lockers all over the city and our mobile app is your gateway to access food with anonymity and autonomy.
+            </p>
+        </div>
+        <div class="row">
+          <h3>Simple food relief for times when you need it quickly & efficiently.</h3>
+        </div>
+        <div class="row">
+          <p>
+            Forget the hassles of complex registration processes. Just download the app, choose your location and how you want to access food for the day - either as a hot meal or as pantry staples, and pick up from a food locker near you.
+            <br><br>
+            You'll find our lockers all over the city and our mobile app is your gateway to access food with anonymity and autonomy.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!-- Volunteering -->
+    <div class="container-fluid signUp" id="volunteering">
+      <div class="row volunteering align-items-center">
+        <div class="col-md">
+          <h1>Volunteering</h1><br>
+          <h4>Are you interested in helping people? Join our volunteer list today!</h4>
+          <p class="lightText">Please fill out this form and one of our HR managers will be in touch with you.</p>
+        </div>
+        <div class="col-md">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Full name</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Full Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Locations -->
+    <div class="container-fluid foodLocations" id="locations">
+      <div class="col-md">
+        <h4>Food Locker Locations</h4><br>
+      </div>
+      <iframe width="100%" height="350" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=melbourne%203000&key=AIzaSyBvfwD_sKxjsydyZk_P1a821z-vdfS4dmo"></iframe>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
   </body>
 </html>
